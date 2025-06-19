@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 import HomeCard from "./HomeCard";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
@@ -63,7 +62,7 @@ const MeetingTypeList = () => {
       if (!values.description) router.push(`/meeting/${call.id}`);
       toast("Meeting created successfully!");
     } catch (error) {
-      
+      console.error("Error creating meeting:", error);
       toast("Failed to create meeting. Please try again later.");
     }
   };

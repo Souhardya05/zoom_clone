@@ -4,7 +4,7 @@
 import MeetingTypeList from "@/components/MeetingTypeList";
 import React from "react";
 import { useGetCalls } from "@/hooks/useGetCalls";
-import next from "next";
+
 
 
 const HOME = () => {
