@@ -37,9 +37,7 @@ const Sidebar = () => {
                 )
             })}
         </div>
-        <div className="text-gray-500 text-sm">
-            © 2023 Your Company
-        </div>
+        
       
     </section>
   )
