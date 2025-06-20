@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# YOOM – Zoom Clone 🧑‍💻📹
 
-## Getting Started
+[🔗 Live Demo](https://zoom-clone-ga4h.vercel.app/) • [📁 GitHub Repository](https://github.com/Souhardya05/zoom_clone.git)
 
-First, run the development server:
+YOOM is a modern video conferencing web application inspired by Zoom. Built using **Next.js 15**, **TypeScript**, **Tailwind CSS**, **Clerk**, and **Stream Video SDK**, it offers a polished and production-ready UI for seamless meetings.
+
+---
+
+## 🚀 Features
+
+- 🔐 User Authentication & Authorization with **Clerk**
+- 🎥 Real-time video meetings using **Stream Video SDK**
+- 🧑‍🤝‍🧑 Personal meeting rooms
+- 📅 Schedule and manage upcoming meetings
+- 📜 View previous meetings
+- 📁 Access to meeting recordings
+- 🎨 Beautiful, responsive UI with **Tailwind CSS** & **ShadCN/UI**
+- ☁️ Deployed on **Vercel**
+
+---
+
+## 🧰 Tech Stack
+
+| Tech            | Description                     |
+|-----------------|---------------------------------|
+| **Next.js 15**  | App Router & SSR capabilities   |
+| **TypeScript**  | Static type checking            |
+| **Tailwind CSS**| Utility-first CSS framework     |
+| **ShadCN/UI**   | UI components                   |
+| **Clerk**       | Authentication and user mgmt    |
+| **Stream SDK**  | Video call backend              |
+| **Vercel**      | Hosting and CI/CD               |
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Souhardya05/zoom_clone.git
+cd zoom_clone
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure Environment Variables
+
+Create a `.env.local` file and add your keys:
+
+```env
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
+NEXT_PUBLIC_STREAM_API_KEY=your_stream_api_key
+STREAM_SECRET=your_stream_secret
+```
+
+> You can get your API keys from [Clerk](https://clerk.com/) and [GetStream](https://getstream.io/).
+
+### 4. Run the App
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit: [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🙋 About Me
 
-## Learn More
+Made with ❤️ by **[Souhardya Saha](https://github.com/Souhardya05)**  
+Feel free to explore, fork, or connect!
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📄 License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is licensed under the [MIT License](LICENSE).
