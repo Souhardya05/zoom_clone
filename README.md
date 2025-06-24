@@ -77,7 +77,3 @@ Made with ❤️ by **[Souhardya Saha](https://github.com/Souhardya05)**
 Feel free to explore, fork, or connect!
 
 ---
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
